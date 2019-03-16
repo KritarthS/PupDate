@@ -1,0 +1,503 @@
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+  position: relative;
+  border-radius: 10px;
+  width: 100%;
+  background: rgba(9, 93, 129, 1);
+  margin: 15px;
+}
+.welcome {
+  float: left;
+  margin: 20px;
+  color: #fff;
+  display: inline-block;
+}
+
+.welcome h1 {
+  display: inline-block;
+  margin-left: 50px;
+  padding-top: 5px;
+}
+
+.nav {
+  float: right;
+  color: #fff;
+  margin-top: 40px;
+  margin-right: 20px;
+}
+
+.nav a {
+  padding: 10px;
+  margin: 10px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #f7941d;
+  border-radius: 10px;
+  transition: all 0.4s ease;
+}
+
+.nav a:hover {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.nav a i {
+  margin-right: 10px;
+}
+
+#headd #logo {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
+
+/* index page =======================================================*/
+
+#indx {
+  background: url("../imgs/bg_index-01.png");
+}
+
+#indx #logo {
+  width: 150px;
+  height: 150px;
+  margin: 20px;
+}
+.indHead {
+  display: block;
+  background-color: #fff;
+  border-radius: 10px;
+  width: 100%;
+  margin: 10px;
+}
+
+.indHead img,
+.login {
+  display: inline-block;
+}
+
+.login {
+  margin-left: 350px;
+  padding: 20px;
+}
+
+.login a,
+.login h1 {
+  display: block;
+}
+
+.login h1 {
+  margin: auto auto;
+}
+.login a {
+  float: right;
+  text-align: right;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 10px;
+  margin: 15px;
+  background-color: #f7941d;
+  padding: 5px 20px;
+  transition: all 0.4s ease;
+}
+.login a:hover {
+  padding: 5px 35px;
+}
+
+.regForm {
+  width: 100%;
+}
+
+#indFrm {
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 10px;
+  padding: 20px;
+  width: 350px;
+  margin-left: 73%;
+  margin-top: 50px;
+  padding-left: 45px;
+  padding-top: 40px;
+}
+
+#indFrm label {
+  display: block;
+}
+
+#indFrm input {
+  display: block;
+  margin-bottom: 20px;
+  border-style: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  width: 262px;
+}
+
+#upload {
+  margin-top: 15px;
+  padding: 0px;
+  background: #fff;
+  width: 262px;
+}
+
+#save {
+  background: #f7941d;
+  color: #fff;
+  animation: bounce-top 0.9s both;
+  transition: all 0.4s ease;
+}
+
+#save:hover {
+  color: #000;
+  font-weight: bold;
+}
+
+@keyframes bounce-top {
+  0% {
+    transform: translateY(-45px);
+    animation-timing-function: ease-in;
+    opacity: 1;
+  }
+  24% {
+    opacity: 1;
+  }
+  40% {
+    transform: translateY(-24px);
+    animation-timing-function: ease-in;
+  }
+  65% {
+    transform: translateY(-12px);
+    animation-timing-function: ease-in;
+  }
+  82% {
+    transform: translateY(-6px);
+    animation-timing-function: ease-in;
+  }
+  93% {
+    transform: translateY(-4px);
+    animation-timing-function: ease-in;
+  }
+  25%,
+  55%,
+  75%,
+  87% {
+    transform: translateY(0px);
+    animation-timing-function: ease-out;
+  }
+  100% {
+    transform: translateY(0px);
+    animation-timing-function: ease-out;
+    opacity: 1;
+  }
+}
+
+textarea {
+  border-style: none;
+  border-radius: 5px;
+}
+
+/* index page =======================================================*/
+/* login page =======================================================*/
+
+#headd {
+  background: url("../imgs/bg_index-02.png");
+  height: 100vh;
+}
+
+.loginForm {
+  margin: 200px auto;
+}
+
+.logHead {
+  padding: 15px;
+  background: #fff;
+  border-radius: 10px;
+}
+
+#logFrm {
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  width: 350px;
+  margin-top: 10px;
+  padding-left: 45px;
+  padding-top: 40px;
+}
+
+#logFrm label {
+  display: block;
+}
+
+#logFrm input {
+  display: block;
+  margin-bottom: 20px;
+  border-style: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  width: 262px;
+}
+
+#upload {
+  margin-top: 15px;
+  padding: 0px;
+  background: #fff;
+  width: 262px;
+}
+
+#save {
+  background: #f7941d;
+  color: #fff;
+  animation: bounce-top 0.9s both;
+  transition: all 0.4s ease;
+}
+
+#save:hover {
+  color: #000;
+  font-weight: bold;
+}
+
+@keyframes bounce-top {
+  0% {
+    transform: translateY(-45px);
+    animation-timing-function: ease-in;
+    opacity: 1;
+  }
+  24% {
+    opacity: 1;
+  }
+  40% {
+    transform: translateY(-24px);
+    animation-timing-function: ease-in;
+  }
+  65% {
+    transform: translateY(-12px);
+    animation-timing-function: ease-in;
+  }
+  82% {
+    transform: translateY(-6px);
+    animation-timing-function: ease-in;
+  }
+  93% {
+    transform: translateY(-4px);
+    animation-timing-function: ease-in;
+  }
+  25%,
+  55%,
+  75%,
+  87% {
+    transform: translateY(0px);
+    animation-timing-function: ease-out;
+  }
+  100% {
+    transform: translateY(0px);
+    animation-timing-function: ease-out;
+    opacity: 1;
+  }
+}
+/* login page =======================================================*/
+/* listing page =======================================================*/
+
+.pup,
+.pupprofile {
+  width: 300px;
+  float: left;
+  height: 300px;
+  margin: 50px;
+  border-radius: 10px;
+}
+
+.puplisting {
+  overflow: auto;
+  margin-left: 14%;
+}
+
+form img {
+  max-width: 250px;
+}
+
+.pager {
+  width: 100%;
+  text-align: center;
+}
+
+.pupName {
+  width: 300px;
+  text-align: center;
+}
+a.pgNo {
+  display: inline-block;
+  margin: 15px;
+}
+
+/* listing page =======================================================*/
+/* profile page =======================================================*/
+
+.pupprofile {
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.pup img,
+.pupprofile img {
+  max-width: 300px;
+  max-height: 300px;
+  border-radius: 10px;
+}
+
+h3.pupName {
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.pupBio {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 350px;
+  margin-bottom: 10px;
+}
+
+.btns {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.btns a {
+  background: #f7941d;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 5px;
+  text-decoration: none;
+  transition: all 0.4s ease;
+}
+
+.btns a:hover {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.proBox {
+  width: 500px;
+  height: 400px;
+  background-color: #fff;
+  margin-top: -150px;
+  padding-top: 190px;
+  margin-left: -100px;
+  border-radius: 10px;
+}
+/* profile page =======================================================*/
+/* messages page ======================================================*/
+
+.messages {
+  margin: 0 auto;
+  width: 450px;
+  height: 450px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.typePad {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.typePad h3,
+.typePad textarea,
+.typePad #save {
+  margin-top: 15px;
+}
+
+a#back {
+  margin-top: 35px;
+}
+
+.messagebubble {
+  background: rgb(214, 214, 214);
+  border-radius: 10px;
+  font-family: arial;
+  font-size: 12px;
+  color: #000;
+}
+
+.fromMe {
+  background: rgb(14, 152, 211);
+  color: #fff;
+  margin-top: 10px;
+}
+.msgImg {
+  display: inline-block;
+}
+
+.msgImg img {
+  max-width: 50px;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 10px;
+}
+
+.messagebubble .msg {
+  display: inline-block;
+  max-width: 320px;
+}
+
+input#save {
+  background: #f7941d;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  border-style: none;
+}
+
+/* messages page ======================================================*/
+/* editProfile page ======================================================*/
+
+.edits {
+  margin-left: 16%;
+  margin-top: 50px;
+  width: 720px;
+}
+
+.currentPic {
+  padding: 15px;
+  width: 330px;
+  height: 420px;
+  border-radius: 10px;
+  background: #fff;
+  margin-right: 30px;
+}
+
+.updateFrm {
+  padding: 15px;
+  width: 350px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.6);
+  padding-left: 43px;
+}
+
+#edtFrm input {
+  display: block;
+  border-style: none;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding: 5px 10px;
+  width: 262px;
+}
+
+#edtFrm label {
+  display: block;
+}
+
+#edtFrm textarea {
+  margin-bottom: 20px;
+}
+
+#edtFrm #save {
+  margin-bottom: 20px;
+}
+
+/* editProfile page ======================================================*/
